@@ -12,18 +12,19 @@
 
     <!-- Bootstrap core CSS -->
   
-  <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" />
 
-  <link rel="stylesheet" href="{{ asset('fonts/css/font-awesome.min.css') }}" />
-  <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}" />
+  {!!Html::style('css/bootstrap.min.css')!!}
 
-  <link rel="stylesheet" href="{{ asset('css/custom.css') }}" />
-  <link rel="stylesheet" href="{{ asset('css/maps/jquery-jvectormap-2.0.1.css') }}" />
-  <link rel="stylesheet" href="{{ asset('css/icheck/flat/green.css') }}" />
-  <link rel="stylesheet" href="{{ asset('css/floatexamples.css') }}" />
+  {!!Html::style('fonts/css/font-awesome.min.css')!!}
+  {!!Html::style('css/animate.min.css')!!}
 
-  <script src="{{ asset('js/jquery.min.js') }}" ></script>
-  <script src="{{ asset('js/nprogress.js') }}" ></script>
+  {!!Html::style('css/custom.css')!!}
+  {!!Html::style('css/maps/jquery-jvectormap-2.0.1.css')!!}
+  {!!Html::style('css/icheck/flat/green.css')!!}
+  {!!Html::style('css/floatexamples.css')!!}
+
+  {!!Html::script('js/jquery.min.js')!!}
+  {!!Html::script('js/nprogress.js')!!}
 
     <script>
         NProgress.start();
@@ -1095,35 +1096,35 @@
         <div id="notif-group" class="tabbed_notifications"></div>
     </div>
 
-    <script src="{{ asset('js/bootstrap.min.js') }}" ></script>
+    {!!Html::script('js/bootstrap.min.js')!!}
 
-    <script src="{{ asset('js/gauge/gauge.min.js') }}" ></script>
-    <script src="{{ asset('js/gauge/gauge_demo.js') }}" ></script>
+    {!!Html::script('js/gauge/gauge.min.js')!!}
+    {!!Html::script('js/gauge/gauge_demo.js')!!}
 
-    <script src="{{ asset('js/chartjs/chart.min.js') }}" ></script>
+    {!!Html::script('js/chartjs/chart.min.js')!!}
 
-    <script src="{{ asset('js/progressbar/bootstrap-progressbar.min.js') }}" ></script>
-    <script src="{{ asset('js/nicescroll/jquery.nicescroll.min.js') }}" ></script>
+    {!!Html::script('js/progressbar/bootstrap-progressbar.min.js')!!}
+    {!!Html::script('js/nicescroll/jquery.nicescroll.min.js')!!}
 
-    <script src="{{ asset('js/icheck/icheck.min.js') }}" ></script>
+    {!!Html::script('js/icheck/icheck.min.js')!!}
 
-    <script src="{{ asset('js/moment.min.js') }}" ></script>
-    <script src="{{ asset('js/datepicker/daterangepicker.js') }}" ></script>
+    {!!Html::script('js/moment.min.js')!!}
+    {!!Html::script('js/datepicker/daterangepicker.js')!!}
 
-    <script src="{{ asset('js/custom.js') }}" ></script>
+    {!!Html::script('js/custom.js')!!}
 
 
     
 
-    <script src="{{ asset('js/flot/jquery.flot.js') }}" ></script>
-    <script src="{{ asset('js/flot/jquery.flot.pie.js') }}" ></script>
-    <script src="{{ asset('js/flot/jquery.flot.orderBars.js') }}" ></script>
-    <script src="{{ asset('js/flot/jquery.flot.time.min.js') }}" ></script>
-    <script src="{{ asset('js/flot/date.js') }}" ></script>
-    <script src="{{ asset('js/flot/jquery.flot.spline.js') }}" ></script>
-    <script src="{{ asset('js/flot/jquery.flot.stack.js') }}" ></script>
-    <script src="{{ asset('js/flot/curvedLines.js') }}" ></script>
-    <script src="{{ asset('js/flot/jquery.flot.resize.js') }}" ></script>
+    {!!Html::script('js/flot/jquery.flot.js')!!}
+    {!!Html::script('js/flot/jquery.flot.pie.js')!!}
+    {!!Html::script('js/flot/jquery.flot.orderBars.js')!!}
+    {!!Html::script('js/flot/jquery.flot.time.min.js')!!}
+    {!!Html::script('js/flot/date.js')!!}
+    {!!Html::script('js/flot/jquery.flot.spline.js')!!}
+    {!!Html::script('js/flot/jquery.flot.stack.js')!!}
+    {!!Html::script('js/flot/curvedLines.js')!!}
+    {!!Html::script('js/flot/jquery.flot.resize.js')!!}
 
     <!-- flot js -->
     <!--[if lte IE 8]><script type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
@@ -1189,10 +1190,10 @@
         });
     </script>
 
-<script src="{{ asset('js/maps/jquery-jvectormap-2.0.1.min.js') }}" ></script>
-<script src="{{ asset('js/maps/gdp-data.js') }}" ></script>
-<script src="{{ asset('js/maps/jquery-jvectormap-world-mill-en.js') }}" ></script>
-<script src="{{ asset('js/maps/jquery-jvectormap-us-aea-en.js') }}" ></script>
+{!!Html::script('js/maps/jquery-jvectormap-2.0.1.min.js')!!}
+{!!Html::script('js/maps/gdp-data.js')!!}
+{!!Html::script('js/maps/jquery-jvectormap-world-mill-en.js')!!}
+{!!Html::script('js/maps/jquery-jvectormap-us-aea-en.js')!!}
     <!-- worldmap -->
     
     <script>
